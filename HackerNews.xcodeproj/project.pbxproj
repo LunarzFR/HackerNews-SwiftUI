@@ -15,6 +15,8 @@
 		A72A212F2599572900E22FA3 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A212E2599572900E22FA3 /* PostData.swift */; };
 		A72A213425995C3200E22FA3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A213325995C3200E22FA3 /* DetailView.swift */; };
 		A72A213725995F6500E22FA3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A213625995F6500E22FA3 /* WebView.swift */; };
+		A72A213C259964F200E22FA3 /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A213A259964F200E22FA3 /* screenshot_1.png */; };
+		A72A213D259964F200E22FA3 /* screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A213B259964F200E22FA3 /* screenshot_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A72A212E2599572900E22FA3 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		A72A213325995C3200E22FA3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A72A213625995F6500E22FA3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A72A213A259964F200E22FA3 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
+		A72A213B259964F200E22FA3 /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		A72A210D259952EA00E22FA3 = {
 			isa = PBXGroup;
 			children = (
+				A72A2139259964DB00E22FA3 /* screenshots */,
 				A72A2118259952EA00E22FA3 /* HackerNews */,
 				A72A2117259952EA00E22FA3 /* Products */,
 			);
@@ -95,6 +100,15 @@
 				A72A213625995F6500E22FA3 /* WebView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A72A2139259964DB00E22FA3 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A72A213A259964F200E22FA3 /* screenshot_1.png */,
+				A72A213B259964F200E22FA3 /* screenshot_2.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +168,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72A213C259964F200E22FA3 /* screenshot_1.png in Resources */,
 				A72A2121259952EC00E22FA3 /* Preview Assets.xcassets in Resources */,
+				A72A213D259964F200E22FA3 /* screenshot_2.png in Resources */,
 				A72A211E259952EC00E22FA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
